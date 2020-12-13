@@ -34,9 +34,9 @@ Repository containing all the code for problem statement 3 in Siemens Healthcare
 ![Screenshot (283)](https://user-images.githubusercontent.com/55051841/102008470-c2d2aa80-3d56-11eb-96c9-64ac762e38dd.png)
 
 
-Video demo: https://drive.google.com/drive/folders/1JLd9thBOQTG50B1iwzj5_3a9LkTXkySr?usp=sharing
+## Video demo: https://drive.google.com/drive/folders/1JLd9thBOQTG50B1iwzj5_3a9LkTXkySr?usp=sharing
 
-Instructions to run the chatbot and see the results for yourself:
+## Instructions to run the chatbot and see the results for yourself:
 1) Download Xampp
 2) Go to htdocs folder
 3) Download the 'hackoff' folder from https://drive.google.com/drive/folders/1dXPzR36g1BPcyhigl5GKqnNsVXgxWpKz?usp=sharing
