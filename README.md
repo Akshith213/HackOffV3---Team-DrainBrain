@@ -14,6 +14,8 @@ Repository containing all the code for problem statement 3 in Siemens Healthcare
 
 ![Screenshot (279)](https://user-images.githubusercontent.com/55051841/102008336-a08c5d00-3d55-11eb-9378-71de661ddae6.png)
 
+Source: https://www.youtube.com/watch?v=E80qHThomok
+
 1) FileConverter: Extracts pure text from files (pdf, docx, pptx, html and many more).
 2) PreProcessor: Cleans and splits texts into smaller chunks.
 3) DocumentStore: Database storing the documents, metadata and vectors for our search. We have used facebook's FAISS for information retrieval and it can do dense passage retrieval using dual auto-encoders. Basically it will search semantically and give the relevant documents.
@@ -21,6 +23,8 @@ Repository containing all the code for problem statement 3 in Siemens Healthcare
 5) Reader: Neural network (e.g. BERT or RoBERTA) that reads through texts in detail to find an answer. The Reader takes multiple passages of text as input and returns top-n answers. We have used the RoBERTa base model pretrained on the Stanford Squad dataset as our reader.
 6) Finder: Glues together a Retriever + Reader/Generator as a pipeline to provide an easy-to-use question answering interface.
 7) Generator: Neural network (e.g. RAG) that generates an answer for a given question conditioned on the retrieved documents from the retriever. We did not use any generator for our project.
+
+Reference: https://github.com/deepset-ai/haystack
 
 ## Data:
 1) We have scraped a lot of data regarding diseases, medicine, common healthcare related data from many websites like WebMD, Mayoclinic etc.
