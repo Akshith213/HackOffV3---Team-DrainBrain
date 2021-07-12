@@ -1,5 +1,4 @@
-# HackOffV3---Team-DrainBrain
-Repository containing all the code for problem statement 3 in Siemens Healthcare challenge at HackOffV3.
+# A Scalable Information Retrieval Approach to answer your medical queries using the concept of Open Domain Question Answering and Reader-Retriever pipeline
 
 * We would like to thank the wonderful people at deepset for creating amazing apis like Haystack and we have used their api for creating this project.
 * The problem statement was to develop a chatbot for initial medical screening and we have developed a chatnot using a revolutionary technology called Neural Search.
